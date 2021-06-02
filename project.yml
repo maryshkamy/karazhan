@@ -1,0 +1,18 @@
+name: Karazhan
+options:
+  createIntermediateGroup: true
+  deploymentTarget:
+    iOS: "14.0"
+configs:
+  Debug: debug
+  Release: release
+targets:
+  App:
+    name: Sargeras
+    type: application
+    platform: [iOS]
+  Framework:
+    name: Medivh
+    type: framework
+    platform: [iOS]
+schemes:
